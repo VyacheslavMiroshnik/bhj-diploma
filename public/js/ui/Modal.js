@@ -11,14 +11,13 @@ class Modal {
    * Если переданный элемент не существует,
    * необходимо выкинуть ошибку.
    * */
-  constructor(element){
-    if (!element && element === 'undefined'){
-      throw new Error('Передан пустой элемент')
+  constructor(element) {
+    if (!element && element === "undefined") {
+      throw new Error("Передан пустой элемент");
     } else {
-       this.element = element;
-      this.registerEvents()
+      this.element = element;
+      this.registerEvents();
     }
-
   }
 
   /**
@@ -27,13 +26,14 @@ class Modal {
    * (с помощью метода Modal.onClose)
    * */
   registerEvents() {
-    const modalButton = Array.from(document.querySelectorAll('[data-dismiss="modal"]'));
-    modalButton.forEach(el=>{
-      el.addEventListener('click',(e)=>{
-        
-        this.onClose(e)
-      })
-    })
+    const modalButton = Array.from(
+      document.querySelectorAll('[data-dismiss="modal"]')
+    );
+    modalButton.forEach((el) => {
+      el.addEventListener("click", (e) => {
+        this.onClose(e);
+      });
+    });
   }
 
   /**
@@ -43,7 +43,6 @@ class Modal {
   onClose(e) {
     e.preventDefault();
     this.close();
-
   }
   /**
    * Открывает окно: устанавливает CSS-свойство display
@@ -51,13 +50,11 @@ class Modal {
    * */
   open() {
     this.element.style.display = "block";
-
   }
   /**
    * Закрывает окно: удаляет CSS-свойство display
    * */
-  close(){
-    this.element.removeAttribute('style')
-
+  close() {
+    this.element.removeAttribute("style");
   }
 }

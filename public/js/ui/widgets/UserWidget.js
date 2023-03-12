@@ -11,8 +11,12 @@ class UserWidget {
    * Если переданный элемент не существует,
    * необходимо выкинуть ошибку.
    * */
-  constructor(element){
-
+  constructor(element) {
+    if (!element && element === "undefined") {
+      throw new Error("Передан пустой элемент");
+    } else {
+      this.element = element;
+    }
   }
 
   /**
@@ -22,7 +26,10 @@ class UserWidget {
    * в элемент .user-name устанавливает имя
    * авторизованного пользователя
    * */
-  update(){
-
+  update() {
+    let user = User.current();
+    if (user && !(user === "undefined")) {
+      document.querySelector(".user-name").textContent = user.name;
+    }
   }
 }

@@ -56,5 +56,6 @@ class AsyncForm {
    * */
   submit() {
     this.onSubmit(this.getData());
+    this.element.reset();
   }
 }

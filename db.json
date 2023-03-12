@@ -5,30 +5,6 @@
       "email": "demo@demo",
       "password": "demo",
       "id": "1"
-    },
-    {
-      "name": "Vlad",
-      "email": "test@test.ru",
-      "password": "abracadabra",
-      "id": "2wykydmklezjuucc"
-    },
-    {
-      "name": "Vlad",
-      "email": "testtest.ru",
-      "password": "abracadabra",
-      "id": "2wykydpslezjwlad"
-    },
-    {
-      "name": "Vlad",
-      "email": "",
-      "password": "abracadabra",
-      "id": "2wykyiklezjz988"
-    },
-    {
-      "name": "Vlad",
-      "email": "fdsfasdf",
-      "password": "abracadabra",
-      "id": "2wyky6g0lezkgv0p"
     }
   ],
   "accounts": [

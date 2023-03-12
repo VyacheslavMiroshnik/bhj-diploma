@@ -23,8 +23,8 @@ class Sidebar {
 
     sideMenuButton.addEventListener("click", (e) => {
       e.preventDefault();
-      body.classList.toggle("sidebar-open" );
-      body.classList.toggle('sidebar-collapse')
+      body.classList.toggle("sidebar-open");
+      body.classList.toggle("sidebar-collapse");
     });
   }
 
@@ -52,12 +52,10 @@ class Sidebar {
     });
     logoutButton.addEventListener("click", (e) => {
       e.preventDefault();
-      
-        User.logout(() => {
-          
-          App.setState("init");
-        })
-      
+
+      User.logout(() => {
+        App.setState("init");
+      });
     });
   }
 }

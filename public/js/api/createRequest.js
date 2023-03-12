@@ -8,9 +8,7 @@ const createRequest = (options = {}) => {
   let sendUrl = options.url;
   xhr.responseType = "json";
   if (options.method.toLowerCase() === "get") {
-    if (sendUrl.includes("account")) {
-      sendUrl += `/${options.data.id}`;
-    } else {
+    if (!sendUrl.includes("account"))  {
       sendUrl += "?";
       for (let key in options.data) {
         sendUrl += `${key}=${options.data[key]}&`;
@@ -22,7 +20,7 @@ const createRequest = (options = {}) => {
       xhr.send();
     } catch (error) {
       console.log(error.message);
-      options.callback(error,null)
+      options.callback(error, null);
     }
   } else {
     for (let key in options.data) {
@@ -33,16 +31,13 @@ const createRequest = (options = {}) => {
       xhr.open(options.method, sendUrl);
       xhr.send(formDate);
     } catch (error) {
-      console.log(error.message);
-      options.callback(error,null)
+      options.callback(error, null);
     }
   }
   xhr.addEventListener("load", () => {
-    console.log(xhr.response);
-    options.callback(xhr.response.error,xhr.response)
+    options.callback(null, xhr.response);
   });
   xhr.addEventListener("error", (e) => {
-    console.log(e.message);
-    options.callback(e,null)
+    options.callback(e, null);
   });
 };
