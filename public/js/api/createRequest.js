@@ -19,7 +19,6 @@ const createRequest = (options = {}) => {
       xhr.open(options.method, sendUrl);
       xhr.send();
     } catch (error) {
-      console.log(error.message);
       options.callback(error, null);
     }
   } else {

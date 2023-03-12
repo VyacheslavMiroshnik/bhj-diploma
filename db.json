@@ -159,6 +159,86 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "2wyky4q0lf5morku",
+      "type": "income",
+      "name": "fsdfs",
+      "sum": 34344,
+      "user_id": "1",
+      "created_at": "2023-03-12T16:46:58.973Z"
+    },
+    {
+      "id": "2wyky1twlf5q6lmu",
+      "type": "income",
+      "name": "fsdfsdf",
+      "sum": 53453,
+      "user_id": "1",
+      "created_at": "2023-03-12T18:24:49.925Z"
+    },
+    {
+      "id": "2wyky6ywlf5q99fa",
+      "type": "expense",
+      "name": "54353453",
+      "sum": 34535435,
+      "user_id": "1",
+      "created_at": "2023-03-12T18:26:54.069Z"
+    },
+    {
+      "id": "2wyky978lf5qbu7r",
+      "type": "income",
+      "name": "fsfaa",
+      "sum": 43534,
+      "user_id": "1",
+      "created_at": "2023-03-12T18:28:54.326Z"
+    },
+    {
+      "id": "2wyky2jolf5qip9n",
+      "type": "income",
+      "name": "Вячеслав",
+      "sum": 35345345,
+      "user_id": "1",
+      "created_at": "2023-03-12T18:34:14.506Z"
+    },
+    {
+      "id": "2wyky500lf5qotg6",
+      "type": "income",
+      "name": "fdsf",
+      "sum": 5345345,
+      "user_id": "1",
+      "created_at": "2023-03-12T18:38:59.861Z"
+    },
+    {
+      "id": "2wyky644lf5rf8dy",
+      "type": "income",
+      "name": "4234234",
+      "sum": 354345345,
+      "user_id": "1",
+      "created_at": "2023-03-12T18:59:32.277Z"
+    },
+    {
+      "id": "2wykyb3clf5roan0",
+      "type": "income",
+      "name": "fsdfs",
+      "sum": 534532453425,
+      "user_id": "1",
+      "created_at": "2023-03-12T19:06:35.099Z"
+    },
+    {
+      "id": "2wykyd6klf5uo6z9",
+      "type": "income",
+      "name": "fsdfsf",
+      "sum": 45345345,
+      "user_id": "1",
+      "created_at": "2023-03-12T20:30:29.204Z"
+    },
+    {
+      "id": "2wykyceolf5usner",
+      "type": "income",
+      "name": "fsdfs",
+      "sum": 4534534534,
+      "user_id": "1",
+      "created_at": "2023-03-12T20:33:57.122Z"
     }
   ]
 }
