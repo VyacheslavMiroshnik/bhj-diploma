@@ -13,8 +13,8 @@ class AsyncForm {
    * через registerEvents()
    * */
   constructor(element) {
-    if (!element && element === "undefined") {
-      throw new Error("Передан пустой элемент");
+    if (!element || element === "undefined") {
+      throw new Error("Пустой элемент");
     } else {
       this.element = element;
       this.registerEvents();
@@ -40,12 +40,19 @@ class AsyncForm {
    * }
    * */
   getData() {
-    const elForm = this.element.getElementsByTagName("input");
-    let obj = {};
-    for (let el of elForm) {
-      obj[el.name] = el.value;
+    /* let inputCol = Array .from(this.element.querySelectorAll('input'));
+    let objData = {};
+    inputCol.forEach(input=>{
+      objData[input.name] = input.value
+    })*/
+    const formData = new FormData(this.element);
+    let objData = {};
+    for (let [key, value] of formData.entries()) {
+      objData[key] = value;
     }
-    return obj;
+
+    console.log(objData);
+    return objData;
   }
 
   onSubmit(options) {}

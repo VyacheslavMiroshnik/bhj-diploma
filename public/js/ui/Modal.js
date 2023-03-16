@@ -12,8 +12,8 @@ class Modal {
    * необходимо выкинуть ошибку.
    * */
   constructor(element) {
-    if (!element && element === "undefined") {
-      throw new Error("Передан пустой элемент");
+    if (!element || element === "undefined") {
+      throw new Error("Пустой элемент");
     } else {
       this.element = element;
       this.registerEvents();
@@ -26,14 +26,13 @@ class Modal {
    * (с помощью метода Modal.onClose)
    * */
   registerEvents() {
-    const modalButton = Array.from(
-      document.querySelectorAll('[data-dismiss="modal"]')
-    );
-    modalButton.forEach((el) => {
-      el.addEventListener("click", (e) => {
-        this.onClose(e);
+    Array.from(this.element.querySelectorAll("button"))
+      .filter((btn) => btn.hasAttribute("data-dismiss"))
+      .forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          this.onClose(e);
+        });
       });
-    });
   }
 
   /**

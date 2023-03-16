@@ -12,7 +12,7 @@ class TransactionsWidget {
    * необходимо выкинуть ошибку.
    * */
   constructor(element) {
-    if (element && element === "undefined") {
+    if (!element || element === "undefined") {
       throw new Error("Передан пустой элемент");
     } else {
       this.element = element;
@@ -26,15 +26,22 @@ class TransactionsWidget {
    * экземпляра окна
    * */
   registerEvents() {
-    const incomeBtn = this.element.querySelector(".create-income-button");
-    const expenseBtn = this.element.querySelector(".create-expense-button");
-    incomeBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      App.getModal("newIncome").open();
-    });
-    expenseBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      App.getModal("newExpense").open();
-    });
+    const transactionBtn = this.element.getElementsByClassName("btn");
+    for (let btn of transactionBtn) {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        switch (e.target.textContent.toLowerCase().trim()) {
+          case "доход":
+            App.getModal("newIncome").open();
+            break;
+          case "расход":
+            App.getModal("newExpense").open();
+            break;
+          default:
+            break;
+        }
+      });
+    }
   }
 }
