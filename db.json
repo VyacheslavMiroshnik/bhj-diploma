@@ -22,56 +22,6 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
-    },
-    {
-      "name": "Вячеслав",
-      "user_id": "1",
-      "id": "2wykyccolf5v4n99"
-    },
-    {
-      "name": "fdgdsgv",
-      "user_id": "1",
-      "id": "2wyky2z8lf5vd1k4"
-    },
-    {
-      "name": "fsdfs",
-      "user_id": "1",
-      "id": "2wykycz0lf5vhjz4"
-    },
-    {
-      "name": "gfdgdfgdfg",
-      "user_id": "1",
-      "id": "2wyky8xwlf5vz898"
-    },
-    {
-      "name": "fdsfsd",
-      "user_id": "1",
-      "id": "2wyky7pklf5w4u28"
-    },
-    {
-      "name": "fdfdf",
-      "user_id": "1",
-      "id": "2wykyc9clf5wg16o"
-    },
-    {
-      "name": "fdfdffgegergergerg",
-      "user_id": "1",
-      "id": "2wyky5cslf5wrco8"
-    },
-    {
-      "name": "fddf",
-      "user_id": "1",
-      "id": "2wykyb6wlf5xah52"
-    },
-    {
-      "name": "fddffdsfsdfdsffsdfsdfsdfsdf",
-      "user_id": "1",
-      "id": "2wykyc0wlf5xb064"
-    },
-    {
-      "name": "gfdgfdhfdh",
-      "user_id": "1",
-      "id": "2wyky3q8lf6rbk0d"
     }
   ],
   "transactions": [
@@ -211,157 +161,22 @@
       "user_id": "1"
     },
     {
-      "id": "2wyky4q0lf5morku",
+      "id": "2wykyb54lfb6i577",
       "type": "income",
-      "name": "fsdfs",
-      "sum": 34344,
-      "user_id": "1",
-      "created_at": "2023-03-12T16:46:58.973Z"
-    },
-    {
-      "id": "2wyky1twlf5q6lmu",
-      "type": "income",
-      "name": "fsdfsdf",
-      "sum": 53453,
-      "user_id": "1",
-      "created_at": "2023-03-12T18:24:49.925Z"
-    },
-    {
-      "id": "2wyky6ywlf5q99fa",
-      "type": "expense",
-      "name": "54353453",
-      "sum": 34535435,
-      "user_id": "1",
-      "created_at": "2023-03-12T18:26:54.069Z"
-    },
-    {
-      "id": "2wyky978lf5qbu7r",
-      "type": "income",
-      "name": "fsfaa",
-      "sum": 43534,
-      "user_id": "1",
-      "created_at": "2023-03-12T18:28:54.326Z"
-    },
-    {
-      "id": "2wyky2jolf5qip9n",
-      "type": "income",
-      "name": "Вячеслав",
-      "sum": 35345345,
-      "user_id": "1",
-      "created_at": "2023-03-12T18:34:14.506Z"
-    },
-    {
-      "id": "2wyky500lf5qotg6",
-      "type": "income",
-      "name": "fdsf",
-      "sum": 5345345,
-      "user_id": "1",
-      "created_at": "2023-03-12T18:38:59.861Z"
-    },
-    {
-      "id": "2wyky644lf5rf8dy",
-      "type": "income",
-      "name": "4234234",
-      "sum": 354345345,
-      "user_id": "1",
-      "created_at": "2023-03-12T18:59:32.277Z"
-    },
-    {
-      "id": "2wykyb3clf5roan0",
-      "type": "income",
-      "name": "fsdfs",
-      "sum": 534532453425,
-      "user_id": "1",
-      "created_at": "2023-03-12T19:06:35.099Z"
-    },
-    {
-      "id": "2wykyd6klf5uo6z9",
-      "type": "income",
-      "name": "fsdfsf",
-      "sum": 45345345,
-      "user_id": "1",
-      "created_at": "2023-03-12T20:30:29.204Z"
-    },
-    {
-      "id": "2wykyceolf5usner",
-      "type": "income",
-      "name": "fsdfs",
-      "sum": 4534534534,
-      "user_id": "1",
-      "created_at": "2023-03-12T20:33:57.122Z"
-    },
-    {
-      "id": "2wykybyslf5v43qa",
-      "type": "income",
-      "name": "аыаыа",
-      "sum": 5345345,
-      "user_id": "1",
-      "created_at": "2023-03-12T20:42:51.489Z"
-    },
-    {
-      "id": "2wyky9lclf6qr0ag",
-      "type": "income",
-      "name": "Вячеслав",
-      "sum": 5656656,
-      "user_id": "1",
-      "created_at": "2023-03-13T11:28:28.215Z"
-    },
-    {
-      "id": "2wykyf34lf6qta20",
-      "type": "income",
-      "name": "fsdfs",
-      "sum": 534534,
-      "user_id": "1",
-      "created_at": "2023-03-13T11:30:14.183Z"
-    },
-    {
-      "id": "2wykybwolf6qujrz",
-      "type": "income",
-      "name": "fdsfdf",
-      "sum": 54443,
-      "user_id": "1",
-      "created_at": "2023-03-13T11:31:13.438Z"
-    },
-    {
-      "id": "2wyky7nglf6r9we1",
-      "type": "income",
-      "name": "Вячеслав",
-      "sum": 45345345,
-      "user_id": "1",
-      "created_at": "2023-03-13T11:43:09.624Z"
-    },
-    {
-      "id": "2wyky9f8lf79a7lk",
-      "type": "income",
-      "name": "Вячеслав",
-      "sum": 645645645,
-      "user_id": "1",
-      "created_at": "2023-03-13T20:07:17.239Z"
-    },
-    {
-      "id": "2wykybwwlfa3g3oc",
-      "type": "income",
-      "name": "fdsf",
-      "sum": 56765765,
-      "user_id": "1",
-      "created_at": "2023-03-15T19:47:12.923Z"
-    },
-    {
-      "id": "2wykydwslfa3kdat",
-      "type": "income",
-      "name": "gfdgd",
-      "sum": 576547457,
-      "user_id": "1",
-      "created_at": "2023-03-15T19:50:32.020Z"
-    },
-    {
-      "id": "2wyky8c4lfb6ejjd",
-      "type": "income",
-      "name": "Вячеслав",
-      "sum": 343324,
+      "name": "зарплата",
+      "sum": 444444,
       "account_id": "1",
       "user_id": "1",
-      "created_at": "2023-03-16T13:57:45.192Z"
+      "created_at": "2023-03-16T14:00:33.234Z"
+    },
+    {
+      "id": "2wykycoglfb6ifsm",
+      "type": "expense",
+      "name": "кредит",
+      "sum": 444444,
+      "account_id": "1",
+      "user_id": "1",
+      "created_at": "2023-03-16T14:00:46.965Z"
     }
   ]
 }
