@@ -5,6 +5,12 @@
       "email": "demo@demo",
       "password": "demo",
       "id": "1"
+    },
+    {
+      "name": "Vyacheslav",
+      "email": "vyacheslav@vyacheslav",
+      "password": "vyacheslav",
+      "id": "2wyky6vglfej0bh9"
     }
   ],
   "accounts": [
@@ -17,26 +23,58 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "2wyky8b8lfeflgc5"
+    },
+    {
+      "name": "Банк ",
+      "user_id": "2wyky6vglfej0bh9",
+      "id": "2wykya8slfej2tkw"
     }
   ],
   "transactions": [
     {
-      "id": "2wyky49olfehjxco",
+      "id": "2wyky1zglfej4y8r",
       "type": "income",
-      "name": "fsfs",
-      "sum": 534534534534,
-      "account_id": "2wyky9s0lfefkvvf",
-      "user_id": "1",
-      "created_at": "2023-03-18T21:33:10.679Z"
+      "name": "зп",
+      "sum": 44444,
+      "account_id": "2wykya8slfej2tkw",
+      "user_id": "2wyky6vglfej0bh9",
+      "created_at": "2023-03-18T22:17:31.226Z"
     },
     {
-      "id": "2wykyc4clfei6jaj",
+      "id": "2wykycmclfej58sd",
+      "type": "expense",
+      "name": "кредит",
+      "sum": 4545,
+      "account_id": "2wykya8slfej2tkw",
+      "user_id": "2wyky6vglfej0bh9",
+      "created_at": "2023-03-18T22:17:44.892Z"
+    },
+    {
+      "id": "2wyky3bklfej5l7r",
       "type": "income",
-      "name": "fsdfsdf",
-      "sum": 54353,
-      "account_id": "2wyky9s0lfefkvvf",
-      "user_id": "1",
-      "created_at": "2023-03-18T21:50:45.546Z"
+      "name": "проценты",
+      "sum": 4444,
+      "account_id": "2wykya8slfej2tkw",
+      "user_id": "2wyky6vglfej0bh9",
+      "created_at": "2023-03-18T22:18:00.998Z"
+    },
+    {
+      "id": "2wyky5uklfej5wbj",
+      "type": "income",
+      "name": "кешбек",
+      "sum": 4440,
+      "account_id": "2wykya8slfej2tkw",
+      "user_id": "2wyky6vglfej0bh9",
+      "created_at": "2023-03-18T22:18:15.390Z"
+    },
+    {
+      "id": "2wyky5b0lfej69ez",
+      "type": "expense",
+      "name": "квартплата",
+      "sum": 5000,
+      "account_id": "2wykya8slfej2tkw",
+      "user_id": "2wyky6vglfej0bh9",
+      "created_at": "2023-03-18T22:18:32.362Z"
     }
   ]
 }

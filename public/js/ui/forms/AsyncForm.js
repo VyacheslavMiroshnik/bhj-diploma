@@ -51,7 +51,6 @@ class AsyncForm {
       objData[key] = value;
     }
 
-    console.log(objData);
     return objData;
   }
 
