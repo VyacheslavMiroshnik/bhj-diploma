@@ -92,7 +92,7 @@ class AccountsWidget {
       prevActiveAcc.classList.toggle("active");
     }
     element.classList.toggle("active");
-    App.showPage("transaction", { account_id: element.dataset.id });
+    App.showPage("transactions", { account_id: element.dataset.id });
   }
 
   /**
