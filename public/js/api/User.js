@@ -82,7 +82,6 @@ class User {
       method: "POST",
       data,
       callback: (err, response) => {
-        console.log(response);
         if (response && response.user) {
           this.setCurrent(response.user);
         }
@@ -101,7 +100,6 @@ class User {
       data: this.current(),
       method: "POST",
       callback: (err, response) => {
-        console.log(response);
         if (response && response.succes) {
           this.setCurrent(response.user);
         } else {

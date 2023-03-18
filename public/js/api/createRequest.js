@@ -8,7 +8,6 @@ const createRequest = (options = {}) => {
   let sendUrl = options.url;
   let formData = "";
   if (options.method.toLowerCase() === "get") {
-    console.log(options["data"]);
     sendUrl += "?";
     for (let key in options.data) {
       sendUrl += `${key}=${options.data[key]}&`;
